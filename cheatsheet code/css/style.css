@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  background: #0F2027;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2C5364), color-stop(#203A43), to(#0F2027));
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header h2 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+header a#mainpage {
+  font-size: 30px;
+  padding: 7px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 30px;
+}
+
+header a#mainpage:hover {
+  border-radius: 3px;
+  background-color: #0f2027;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header p {
+  font-size: 30px;
+  padding: 7px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 70px;
+  left: 170px;
+}
+
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  background: #0F2027;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2C5364), color-stop(#203A43), to(#0F2027));
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+table {
+  border-collapse: collapse;
+  text-shadow: 2px 2px #000000;
+}
+
+table td, table th {
+  font-size: 30px;
+  padding: 7px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border: 3px solid #c7dcff;
+  padding: 10px;
+}
+
+table caption {
+  font-size: 30px;
+  padding: 7px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+
+a {
+  font-size: 30px;
+  padding: 7px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 40px;
+  
+}
+
+a:hover {
+  border-radius: 3px;
+  background-color: #0f2027;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/*# sourceMappingURL=style.css.map */
